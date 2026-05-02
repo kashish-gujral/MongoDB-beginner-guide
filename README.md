@@ -204,7 +204,7 @@ Hardcoding credentials and pushing them to a public repository exposes your data
 
 `.env` file:
 ```
-MONGO_URI=mongodb+srv://admin:mypassword123@cluster.mongodb.net/mydb
+mongodb+srv://<username>:<password>@cluster.mongodb.net/<database>
 ```
 
 `app.js`:
